@@ -1,0 +1,149 @@
+.ai-image-generator{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.header{
+    font-size: 70px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.header span{
+    color: #0ef;
+    font-weight: 600;
+}
+
+.img-loading {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-loading img{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 2rem #0ef;
+}
+
+.search-box{
+    display: flex;
+    width: 1000px;
+    height: 95px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: #1f3540;
+}
+
+.search-input{
+    width: 600px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: rgb(246, 244, 244);
+    padding-left: 35px;
+    margin-right: 35px;
+}
+
+.search-input ::placeholder{
+    color: #999;
+}
+
+.generate-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 85px;
+    font-size: 40px;
+    border-radius: 50px;
+    background: #0ef;
+    color: #1f3540;
+    
+    cursor: pointer;
+}
+
+.container{
+    border: 5px solid #999;
+    
+    background-color: #1f3540;
+    width: 99%;  
+    border-radius: 50px; 
+}
+
+.span{
+    display: flex;
+    font-size: 70px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    color: #0ef;
+    
+}
+.span1{
+    display: flex;
+    font-size: 70px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    
+    
+}
+.panel{
+    overflow: none;
+    padding-left: 34px;
+}
+
+.panel img{
+    border-radius: 10px;
+    box-shadow: 0 0 1rem #0ef;
+    gap: 2px;
+    width: 512px;
+    height: 512px;
+    margin: 12px;
+}
+.panel img:hover {
+    
+    transform: scale(1.1);
+}
+
+.loading-bar{
+    margin-top: 20px;
+    width: 512px;
+    height: 8px;
+    background: #999;
+}
+
+.loading-bar{
+    margin-top: 20px;
+    width: 0px;
+    height: 8px;
+    background: #999;
+    transition: 15s;
+}
+
+.loading-text{
+    font-size: 20px;
+}
+
+.loading-bar-full{
+    margin-top: 20px;
+    width: 512px;
+    height: 8px;
+    background: #999;
+    transition: 15s;
+}
+
+.display-none{
+    display: none;
+}
+
+
